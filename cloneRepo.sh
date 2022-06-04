@@ -3,25 +3,25 @@ cd ../
 echo Start to clone repo : api-gateway
 git clone https://github.com/Nest-GRPC-Example/api-gateway.git
 cd api-gateway
-# yarn
+yarn
 
 cd ../
 echo Start to clone repo : auth-server
 git clone https://github.com/Nest-GRPC-Example/auth-server.git
 cd api-gateway
-# yarn
+yarn
 
 cd ../
 echo Start to clone repo : product-server
 git clone https://github.com/Nest-GRPC-Example/product-server.git
 cd api-gateway
-# yarn
+yarn
 
 cd ../
 echo Start to clone repo : order-server
 git clone https://github.com/Nest-GRPC-Example/order-server.git 
 cd api-gateway
-# yarn
+yarn
 
 cd ../
 echo ==== You have to setup your .env file ====
