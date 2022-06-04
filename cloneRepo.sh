@@ -24,7 +24,7 @@ cd api-gateway
 # yarn
 
 cd ../
-echo *** You have to setup your .env file ***
+echo ==== You have to setup your .env file ====
 echo Generate .env files...
 
 echo AGW_PORT='\n'MSA_HOST='\n'AUTH_PORT='\n'ORDER_PORT='\n'PRODUCT_PORT='\n' > api-gateway/.env
