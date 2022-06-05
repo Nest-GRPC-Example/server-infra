@@ -31,7 +31,7 @@ docker rm nest-product-svc
 
 echo Start Containers...
 
-docker run -d --env-file ../api-gateway/.env -p 3000:3000 --name nest-api-gateway kokt0203/nest-api-gateway
+docker run -d --env-file ../api-gateway/.env -p 5000:3000 --name nest-api-gateway kokt0203/nest-api-gateway
 docker run -d --env-file ../auth-server/.env -p 50051:50051 --name nest-auth-svc kokt0203/nest-auth-svc
 docker run -d --env-file ../order-server/.env -p 50052:50052 --name nest-order-svc kokt0203/nest-order-svc
 docker run -d --env-file ../product-server/.env -p 50053:50053 --name nest-product-svc kokt0203/nest-product-svc
